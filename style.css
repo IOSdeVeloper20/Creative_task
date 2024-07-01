@@ -46,7 +46,7 @@ header::before {
 }
 
 .navbar-brand:hover {
-  color: azure;
+  color: rgb(206, 206, 206);
 }
 
 #nav ul li .nav-link.active {
@@ -69,10 +69,10 @@ header::before {
 }
 
 .nav-button:hover {
-    border-color: #f4623a;
-    color: #f4623a;
-    background-color: #fff;
-  }
+  border-color: #f4623a;
+  color: #f4623a;
+  background-color: #fff;
+}
 
 /*for horizontal line*/
 .heading-text:after {
@@ -120,4 +120,11 @@ header::before {
   max-width: 3.25rem;
   border-top: 0.2rem solid #fff;
   margin-top: 1.5rem;
+}
+
+
+/*Services section*/
+
+.services{
+    height: 100vh;
 }
