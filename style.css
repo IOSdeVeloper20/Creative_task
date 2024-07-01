@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url(./img/hero_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 19, 2, 0.5);
+  z-index: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: azure;
+}
+
+#nav ul li .nav-link.active {
+  color: #f4623a;
+}
+
+#nav ul li a {
+  color: rgba(251, 255, 255, 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+#nav ul li a:hover {
+  color: #f4623a;
+}
+
+.nav-button {
+  border-color: #f4623a;
+  color: #f4623a;
+}
+
+.nav-button:hover {
+    border-color: #f4623a;
+    color: #f4623a;
+    background-color: #fff;
+  }
+
+/*for horizontal line*/
+.heading-text:after {
+  content: "";
+  display: block;
+  margin: auto;
+  max-width: 3.25rem;
+  border-top: 0.2rem solid #f4623a;
+  margin-top: 0.9rem;
+}
+
+.hero-button {
+  background-color: #f4623a;
+  color: #fff;
+  z-index: 1;
+}
+
+.hero-button:hover {
+  background-color: #ff4000;
+  color: #fff;
+}
+
+/*About section*/
+
+.about {
+  background-color: #f4623a;
+  height: 85vh;
+}
+
+.about-button {
+  background-color: #fff;
+  color: #000;
+}
+
+.about-button:hover {
+  background-color: #dfdfdf;
+  color: #000;
+}
+
+/*for horizontal line*/
+.about-heading:after {
+  content: "";
+  display: block;
+  margin: auto;
+  max-width: 3.25rem;
+  border-top: 0.2rem solid #fff;
+  margin-top: 1.5rem;
+}
