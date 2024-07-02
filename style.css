@@ -39,17 +39,27 @@ header::before {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar-brand {
-  color: #fff;
+  color: rgb(206, 206, 206);
+
 }
 
 .navbar-brand:hover {
-  color: rgb(206, 206, 206);
+    color: #fff;
 }
 
-#nav ul li .nav-link.active {
+.navbrand-change {
+    color: grey;
+}
+
+.navbrand-change:hover {
+    color: #f4623a;
+}
+
+#nav .nav-link.active {
   color: #f4623a;
 }
 
@@ -66,12 +76,23 @@ header::before {
 .nav-button {
   border-color: #f4623a;
   color: #f4623a;
+  border-radius: 10px 5px 10px 5px;
 }
 
 .nav-button:hover {
   border-color: #f4623a;
   color: #f4623a;
   background-color: #fff;
+}
+
+.navbar-change {
+    transition: background-color 0.7s ease, color 0.7s ease;
+    background-color: white;
+    color:#343a40
+}
+
+.hero-text {
+  padding-top: 90px;
 }
 
 /*for horizontal line*/
@@ -122,9 +143,15 @@ header::before {
   margin-top: 1.5rem;
 }
 
-
 /*Services section*/
 
-.services{
-    height: 100vh;
+.services {
+  height: 90vh;
+}
+
+/*Portofolio section*/
+
+.portofolio {
+  height: 80vh;
+  background-color: #343a40;
 }
