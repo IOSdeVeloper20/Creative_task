@@ -4,6 +4,7 @@ window.addEventListener("scroll", function () {
   var navbar = document.getElementsByClassName("navbar")[0];
   var nav_brand = this.document.querySelector(".navbar-brand");
   var nav_ul = this.document.querySelectorAll(".nav-link");
+  var scroll_button = this.document.getElementsByClassName('.scroll-button');
 
   if (scrollPosition > 140) {
     navbar.classList.add("navbar-change");
@@ -24,3 +25,31 @@ window.addEventListener("scroll", function () {
     });
   }
 });
+
+
+// $(document).ready(function(){
+//   $('.slider').slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 2000,
+//     dots: true,
+//     arrows: true,
+//     responsive: [
+//       {
+//         breakpoint: 768,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1
+//         }
+//       },
+//       {
+//         breakpoint: 480,
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1
+//         }
+//       }
+//     ]
+//   });
+// });
