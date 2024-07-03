@@ -44,19 +44,18 @@ header::before {
 
 .navbar-brand {
   color: rgb(206, 206, 206);
-
 }
 
 .navbar-brand:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .navbrand-change {
-    color: grey;
+  color: grey;
 }
 
 .navbrand-change:hover {
-    color: #f4623a;
+  color: #f4623a;
 }
 
 #nav .nav-link.active {
@@ -86,10 +85,10 @@ header::before {
 }
 
 .navbar-change {
-    transition: background-color 0.7s ease, color 0.7s ease;
-    background-color: white;
-    color:#343a40;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.7s ease, color 0.7s ease;
+  background-color: white;
+  color: #343a40;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .hero-text {
@@ -152,30 +151,28 @@ header::before {
 
 /*Portofolio section*/
 
-#portofolio {
-    height: 100vh;
+#portfolio {
+  height: 100vh;
   background-color: #343a40;
 }
 
 /* Contact section */
 #contact {
-    height: 89vh;
+  height: 89vh;
 }
 
 .contact-icons {
-    color: #6c757d;
-    font-size: 3rem;
+  color: #6c757d;
+  font-size: 3rem;
 }
-
 
 .contact-info a {
-    text-decoration: none;
-    color: #f4623a;
+  text-decoration: none;
+  color: #f4623a;
 }
 
-
 /*Footer*/
-footer{
-    background-color: rgb(237, 238, 239);
-    color: #6c757d;
+footer {
+  background-color: rgb(237, 238, 239);
+  color: #6c757d;
 }
